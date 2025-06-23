@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasnn Gohel Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor Effects -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Port <span>folio</span></a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">I'm a <span class="typed-text"></span></h1>
+                <p class="hero-subtitle">Creating digital experiences that matter</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Hire Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2><span>About Me</span></h2>
+                <p>Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-details" data-aos="fade-right">
+                    <h3>My Journey</h3>
+                    <div class="timeline" id="timeline-container">
+                        <!-- Timeline items will be populated by JS -->
+                    </div>
+                    
+                    <div class="personal-info">
+                        <h3>Personal Information</h3>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Name:</span>
+                                <span class="info-value" id="info-name">Loading...</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value" id="info-email">Loading...</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Experience:</span>
+                                <span class="info-value" id="info-experience">Loading...</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Freelance:</span>
+                                <span class="info-value" id="info-freelance">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-section" data-aos="fade-left">
+                    <h3>My Expertise</h3>
+                    <p>I specialize in creating beautiful, functional digital experiences with a focus on user-centered design.</p>
+                    
+                    <div class="skills" id="skills-container">
+                        <!-- Skills will be populated by JS -->
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-download" id="download-resume">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Hire Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-bg"></div>
+        <div class="services-overlay"></div>
+        
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>My <span>Services</span></h2>
+                <p>Professional solutions tailored to your needs</p>
+            </div>
+            
+            <div class="services-grid" id="services-container">
+                <!-- Services will be populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2><span> My Work</span></h2>
+                <p>Explore my creative projects</p>
+            </div>
+            
+            <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="app">Mobile Apps</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            
+            <div class="portfolio-grid" id="portfolio-container">
+                <!-- Portfolio items will be populated by JS -->
+            </div>
+            
+            <div class="portfolio-cta" data-aos="fade-up" data-aos-delay="500">
+                <p>Want to see more of my work?</p>
+                <a href="#" class="btn btn-portfolio">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-bg"></div>
+        <div class="contact-overlay"></div>
+        
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get In <span>Touch</span></h2>
+                <p>Let's create something amazing together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Location</h3>
+                            <p id="contact-location">Loading...</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p id="contact-email">Loading...</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>contact</h3>
+                            <p id="contact-phone">Loading...</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Working Hours</h3>
+                            <p id="contact-hours">Loading...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links" id="social-links-container">
+                        <!-- Social links will be populated by JS -->
+                    </div>
+                </div>
+                
+                <form id="contactForm" class="contact-form" data-aos="fade-left">
+                    <!-- Web3Forms Required Fields -->
+                    <input type="hidden" name="access_key" value="fbfcbd2a-e5bd-4e8f-8d1e-c6e60b7bc71b">
+                    <input type="hidden" name="subject" value="New Contact Form Submission">
+                    <!-- <input type="hidden" name="redirect" value="https://yourdomain.com/thank-you">
+                     -->
+                    <!-- Form Groups -->
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required class="form-input">
+                        <label for="name" class="form-label">Your Name</label>
+                        <span class="form-focus"></span>
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required class="form-input">
+                        <label for="email" class="form-label">Your Email</label>
+                        <span class="form-focus"></span>
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required class="form-input">
+                        <label for="subject" class="form-label">Subject</label>
+                        <span class="form-focus"></span>
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required class="form-input"></textarea>
+                        <label for="message" class="form-label">Your Message</label>
+                        <span class="form-focus"></span>
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    
+                    <!-- Success Message -->
+                    <div id="result" class="form-result"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bg"></div>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- About Column -->
+                <div class="footer-col" data-aos="fade-up">
+                    <h3 class="footer-title">About Me</h3>
+                    <p class="footer-about">Loading...</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> <span id="footer-email">Loading...</span></p>
+                        <p><i class="fas fa-phone-alt"></i> <span id="footer-phone">Loading...</span></p>
+                    </div>
+                </div>
+    
+                <!-- Quick Links Column -->
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Services Column -->
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links" id="footer-services">
+                        <!-- Services will be populated by JS -->
+                    </ul>
+                </div>
+    
+                <!-- Newsletter Column -->
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p class="footer-text">Subscribe to my newsletter for the latest updates and insights.</p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="social-links" id="footer-social-links">
+                        <!-- Social links will be populated by JS -->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer-bottom" data-aos="fade-up">
+                <div class="footer-copyright">
+                    <p>&copy; <span id="current-year">2023</span> <span>Portfolio</span>. All Rights Reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="config.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
