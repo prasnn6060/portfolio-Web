@@ -15,7 +15,7 @@ const portfolioConfig = {
     // Hero Section
     hero: {
         title: "I'm a",
-        typedText: ["Flutter Developer", "Android App Developer", "IOS App Developer"],
+        typedText: ["Flutter Developer","Android App Developer","IOS App Developer"],
         subtitle: "Specializing in Flutter app development with real-world impact",
         backgroundImage: "https://i.pinimg.com/736x/bf/b9/6f/bfb96f612ae8729f5ef4ab999faec2f6.jpg"
         //https://i.pinimg.com/736x/43/14/0d/43140df9773f02f7bc6294bd99317de3.jpg
