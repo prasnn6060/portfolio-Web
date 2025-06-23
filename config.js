@@ -122,13 +122,6 @@ const portfolioConfig = {
             tags: ["Flutter","Figma"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(4).jpg?updatedAt=1750586280869",
             badge: "MOBILE APP"
-        },{
-            title: "Creative Dashboard",
-            category: "design",
-            description: "Modern admin dashboard with analytics",
-            tags: ["Figma"],
-            imageUrl: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80",
-            badge: "UI/UX"
         },
         // {
         //     title: "Task Manager",
