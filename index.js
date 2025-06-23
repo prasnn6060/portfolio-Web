@@ -83,7 +83,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const typedTextSpan = document.querySelector('.typed-text');
 const cursorSpan = document.querySelector('.cursor');
 
-const textArray = ['Designer', 'Developer', 'Freelancer'];
+const textArray = ["Flutter Developer","Android App Developer","IOS App Developer"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;

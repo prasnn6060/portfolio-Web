@@ -15,7 +15,7 @@ const portfolioConfig = {
     // Hero Section
     hero: {
         title: "I'm a",
-        typedText: ["Flutter Developer","Android App Developer","IOS App Developer"],
+        // typedText: ["Flutter Developer","Android App Developer","IOS App Developer"],
         subtitle: "Specializing in Flutter app development with real-world impact",
         backgroundImage: "https://i.pinimg.com/736x/bf/b9/6f/bfb96f612ae8729f5ef4ab999faec2f6.jpg"
         //https://i.pinimg.com/736x/43/14/0d/43140df9773f02f7bc6294bd99317de3.jpg
@@ -174,10 +174,10 @@ const portfolioConfig = {
 // Initialize the portfolio when the DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Load personal information
-    document.getElementById('info-name').textContent = portfolioConfig.personalInfo.name;
-    document.getElementById('info-email').textContent = portfolioConfig.personalInfo.email;
-    document.getElementById('info-experience').textContent = portfolioConfig.personalInfo.experience;
-    document.getElementById('info-freelance').textContent = portfolioConfig.personalInfo.freelanceStatus;
+    // document.getElementById('info-name').textContent = portfolioConfig.personalInfo.name;
+    // document.getElementById('info-email').textContent = portfolioConfig.personalInfo.email;
+    // document.getElementById('info-experience').textContent = portfolioConfig.personalInfo.experience;
+    // document.getElementById('info-freelance').textContent = portfolioConfig.personalInfo.freelanceStatus;
     
     // Load contact information
     document.getElementById('contact-location').textContent = portfolioConfig.personalInfo.location;
@@ -191,14 +191,14 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('current-year').textContent = portfolioConfig.footer.copyrightYear;
     
     // Initialize Typed.js if the element exists
-    if (document.querySelector('.typed-text')) {
-        new Typed('.typed-text', {
-            strings: portfolioConfig.hero.typedText,
-            typeSpeed: 100,
-            backSpeed: 60,
-            loop: true
-        });
-    }
+    // if (document.querySelector('.typed-text')) {
+    //     new Typed('.typed-text', {
+    //         strings: portfolioConfig.hero.typedText,
+    //         typeSpeed: 100,
+    //         backSpeed: 60,
+    //         loop: true
+    //     });
+    // }
     
     // Load skills
     const skillsContainer = document.getElementById('skills-container');
