@@ -97,7 +97,7 @@ const portfolioConfig = {
             description: "displaying real-time global COVID-19 cases",
             tags: ["Flutter", "REST API"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(1).jpg?updatedAt=1750585323564",
-            badge: "MOBILE APP"
+            badge: "app"
         },
         {
             title: "Food Delivery App",
@@ -105,7 +105,7 @@ const portfolioConfig = {
             description: "Frontend of Food oreder and Delivery App",
             tags: ["Flutter","Figma"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design.jpg?updatedAt=1750585130899",
-            badge: "MOBILE APP"
+            badge: "app"
         },
         {
             title: "TO-DO App",
@@ -113,7 +113,7 @@ const portfolioConfig = {
             description: "Add Task and get Notification",
             tags: ["Flutter","REST API",],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(3).jpg?updatedAt=1750586237008",
-            badge: "MOBILE APP"
+            badge: "app"
         },
         {
             title: "MineCraft Mods App Design",
@@ -121,7 +121,7 @@ const portfolioConfig = {
             description: "Mine craft Mods App design",
             tags: ["Flutter","Figma"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(4).jpg?updatedAt=1750586280869",
-            badge: "MOBILE APP"
+            badge: "app"
         },
         // {
         //     title: "Task Manager",
