@@ -89,7 +89,7 @@ const portfolioConfig = {
             description: "Live chatting Application",
             tags: ["Flutter", "Firebase", "Cloudinary"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(2).jpg?updatedAt=1750586960557",
-            badge: "MOBILE APP"
+            badge: "app"
         },
         {
             title: "COVID-19 Live Tracker",
