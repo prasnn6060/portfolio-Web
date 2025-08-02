@@ -161,14 +161,14 @@ const portfolioConfig = {
     ],
 
     // Footer
-    footer: {
-        copyrightYear: new Date().getFullYear(),
-        legalLinks: [
-            { text: "Privacy Policy", url: "#" },
-            { text: "Terms of Service", url: "#" },
-            { text: "Cookie Policy", url: "#" }
-        ]
-    }
+    // footer: {
+    //     copyrightYear: new Date().getFullYear(),
+    //     legalLinks: [
+    //         { text: "Privacy Policy", url: "#" },
+    //         { text: "Terms of Service", url: "#" },
+    //         { text: "Cookie Policy", url: "#" }
+    //     ]
+    // }
 };
 
 // Initialize the portfolio when the DOM is loaded
