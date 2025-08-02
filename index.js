@@ -1,14 +1,3 @@
-// Hide custom cursor on touch devices
-if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
-    const style = document.createElement('style');
-    style.textContent = `
-        .cursor, .cursor-follower {
-            display: none !important;
-        }
-    `;
-    document.head.appendChild(style);
-}
-
 // Preloader
 window.addEventListener('load', function() {
   const preloader = document.querySelector('.preloader');
