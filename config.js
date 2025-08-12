@@ -29,13 +29,13 @@ const portfolioConfig = {
         //     description: "Leading design teams to create innovative digital products for global clients."
         // },
         {
-            period: "2025 - Present",
+            period: "15-jan-2025 - 15-july-2025",
             title: "JDK Group Bhavnagar - Flutter Developer",
             description: "Built responsive Mobile applications using Flutter frameworks."
         },
         {
-            period: "2022 - 2024",
-            title: "BPTI-Information Technology Bhavnagar",
+            period: "2021 - 2024",
+            title: "BPTI-Information Technology Bhavnagar -7.35 CGPA",
             description: "Started my IT journey in college with a focus on learning programming languages."
         },
          {
