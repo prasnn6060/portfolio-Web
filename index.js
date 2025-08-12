@@ -422,8 +422,8 @@ document.head.appendChild(style);
             
             setTimeout(() => {
                 const link = document.createElement('a');
-                link.href = 'resume/prasnn_cv.pdf';
-                link.download = 'prasnn_cv.pdf'; // Custom filename for download
+                link.href = 'resume/prasnn(Flutter).pdf';
+                link.download = 'prasnn(Flutter).pdf'; // Custom filename for download
                 link.target = '_blank'; // Open in new tab if download fails
                 link.style.display = 'none'; // Hide the link element
                 
