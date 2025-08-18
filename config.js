@@ -89,7 +89,8 @@ const portfolioConfig = {
             description: "Live chatting Application",
             tags: ["Flutter", "Firebase", "Cloudinary"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(2).jpg?updatedAt=1750586960557",
-            badge: "MOBILE APP"
+            badge: "MOBILE APP",
+            link:"#"
         },
         {
             title: "COVID-19 Live Tracker",
@@ -97,7 +98,8 @@ const portfolioConfig = {
             description: "displaying real-time global COVID-19 cases",
             tags: ["Flutter", "REST API"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(1).jpg?updatedAt=1750585323564",
-            badge: "MOBILE APP"
+            badge: "MOBILE APP",
+            link:"#"
         },
         {
             title: "Food Delivery App",
@@ -105,7 +107,8 @@ const portfolioConfig = {
             description: "Frontend of Food oreder and Delivery App",
             tags: ["Flutter","Figma"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design.jpg?updatedAt=1750585130899",
-            badge: "MOBILE APP"
+            badge: "MOBILE APP",
+            link:"https://play.google.com/store/apps/details?id=com.shreehari.fooddelivery"
         },
         {
             title: "TO-DO App",
@@ -113,7 +116,8 @@ const portfolioConfig = {
             description: "Add Task and get Notification",
             tags: ["Flutter","REST API",],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(3).jpg?updatedAt=1750586237008",
-            badge: "MOBILE APP"
+            badge: "MOBILE APP",
+            link:"#"
         },
         {
             title: "MineCraft Mods App Design",
@@ -121,7 +125,8 @@ const portfolioConfig = {
             description: "Mine craft Mods App design",
             tags: ["Flutter","Figma"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(4).jpg?updatedAt=1750586280869",
-            badge: "MOBILE APP"
+            badge: "MOBILE APP",
+            link:"#"
         },
         // {
         //     title: "Task Manager",
@@ -273,10 +278,8 @@ document.addEventListener('DOMContentLoaded', function() {
                                 ${project.tags.map(tag => `<span>${tag}</span>`).join('')}
                             </div>
                             <div class="portfolio-links">
-                                <a href="#" class="portfolio-link" aria-label="View project">
-                                    <i class="fas fa-expand"></i>
-                                </a>
-                                <a href="#" class="portfolio-link" aria-label="Visit website">
+                               
+                                <a href="${project.link}" class="portfolio-link" aria-label="Visit website">
                                     <i class="fas fa-link"></i>
                                 </a>
                             </div>
