@@ -29,13 +29,13 @@ const portfolioConfig = {
         //     description: "Leading design teams to create innovative digital products for global clients."
         // },
         {
-            period: "2025 - Present",
+            period: "15-jan-2025 - 15-july-2025",
             title: "JDK Group Bhavnagar - Flutter Developer",
             description: "Built responsive Mobile applications using Flutter frameworks."
         },
         {
-            period: "2022 - 2024",
-            title: "BPTI-Information Technology Bhavnagar",
+            period: "2021 - 2024",
+            title: "BPTI-Information Technology Bhavnagar -7.35 CGPA",
             description: "Started my IT journey in college with a focus on learning programming languages."
         },
          {
@@ -89,8 +89,7 @@ const portfolioConfig = {
             description: "Live chatting Application",
             tags: ["Flutter", "Firebase", "Cloudinary"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(2).jpg?updatedAt=1750586960557",
-            badge: "MOBILE APP",
-            link:"#"
+            badge: "MOBILE APP"
         },
         {
             title: "COVID-19 Live Tracker",
@@ -98,8 +97,7 @@ const portfolioConfig = {
             description: "displaying real-time global COVID-19 cases",
             tags: ["Flutter", "REST API"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(1).jpg?updatedAt=1750585323564",
-            badge: "MOBILE APP",
-            link:"#"
+            badge: "MOBILE APP"
         },
         {
             title: "Food Delivery App",
@@ -107,8 +105,7 @@ const portfolioConfig = {
             description: "Frontend of Food oreder and Delivery App",
             tags: ["Flutter","Figma"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design.jpg?updatedAt=1750585130899",
-            badge: "MOBILE APP",
-            link:"https://play.google.com/store/apps/details?id=com.shreehari.fooddelivery"
+            badge: "MOBILE APP"
         },
         {
             title: "TO-DO App",
@@ -116,8 +113,7 @@ const portfolioConfig = {
             description: "Add Task and get Notification",
             tags: ["Flutter","REST API",],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(3).jpg?updatedAt=1750586237008",
-            badge: "MOBILE APP",
-            link:"#"
+            badge: "MOBILE APP"
         },
         {
             title: "MineCraft Mods App Design",
@@ -125,8 +121,7 @@ const portfolioConfig = {
             description: "Mine craft Mods App design",
             tags: ["Flutter","Figma"],
             imageUrl: "https://ik.imagekit.io/0sgryl9yu/Untitled%20design%20(4).jpg?updatedAt=1750586280869",
-            badge: "MOBILE APP",
-            link:"#"
+            badge: "MOBILE APP"
         },
         // {
         //     title: "Task Manager",
